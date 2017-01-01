@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'XNGithubDownloader' do
+  pod 'Alamofire', '~> 4.0'
+  pod 'SnapKit'
+end
