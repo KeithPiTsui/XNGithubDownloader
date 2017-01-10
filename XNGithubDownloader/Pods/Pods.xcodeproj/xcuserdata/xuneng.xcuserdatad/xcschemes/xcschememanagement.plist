@@ -9,12 +9,37 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KeyHolder-KeyHolder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KeyHolder.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Magnet.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-XNGithubDownloader.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SnapKit.xcscheme</key>
+		<key>RegExCategories.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Zip.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>hpple.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,7 +47,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>7452CB441F7289597844E5526BEB48A2</key>
+		<key>3C7AFCE3258BC1D59D5A375DDB10FABC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>459F1E62EEEEA1F6F5652D91AD2D1ECF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>4B5E84BC368A924780983B79577ABA09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>58B5A4791FAD4278E43285E1A607C51F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -32,7 +72,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7C2A247F7D2347EF60BFE07F563F3F5</key>
+		<key>AA77E14D2EACBC9A39267602DFBF7A27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E6CDE65DA9B3C75C229514B8B988A040</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FABB2255B6C8DE8BADFAF5700C385910</key>
 		<dict>
 			<key>primary</key>
 			<true/>

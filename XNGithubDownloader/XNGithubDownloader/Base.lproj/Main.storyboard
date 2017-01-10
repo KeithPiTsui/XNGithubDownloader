@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
     <dependencies>
-        <deployment identifier="macosx"/>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="11762"/>
     </dependencies>
     <scenes>
@@ -656,21 +655,47 @@
                 </application>
                 <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="XNGithubDownloader" customModuleProvider="target"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <customObject id="7fQ-lE-S0T" customClass="StatusMenuController" customModule="XNGithubDownloader" customModuleProvider="target">
+                    <connections>
+                        <outlet property="statusMenu" destination="6d2-wq-nS4" id="558-68-C6u"/>
+                    </connections>
+                </customObject>
                 <menu id="6d2-wq-nS4">
                     <items>
                         <menuItem title="打开" id="eum-18-6Tg">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="openClicked:" target="7fQ-lE-S0T" id="B07-hr-yoj"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem title="打开下载目录" id="4pX-H3-v0d">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="openFolderClicked:" target="7fQ-lE-S0T" id="Eu5-Lg-9Pz"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="设置" id="Fxm-Qz-M6g">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="preferencesClicked:" target="7fQ-lE-S0T" id="Lg0-PJ-DWU"/>
+                            </connections>
+                        </menuItem>
+                        <menuItem title="关于" id="iQI-wl-CEn">
+                            <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="aboutClicked:" target="7fQ-lE-S0T" id="ozd-4B-idb"/>
+                            </connections>
                         </menuItem>
                         <menuItem title="退出" id="NsJ-Ed-305">
                             <modifierMask key="keyEquivalentModifierMask"/>
+                            <connections>
+                                <action selector="quitClick:" target="7fQ-lE-S0T" id="SQG-rp-jMk"/>
+                            </connections>
                         </menuItem>
                     </items>
                 </menu>
             </objects>
-            <point key="canvasLocation" x="75" y="0.0"/>
+            <point key="canvasLocation" x="77" y="-2"/>
         </scene>
     </scenes>
 </document>

@@ -85,9 +85,17 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SnapKit/SnapKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KeyHolder/KeyHolder.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Magnet/Magnet.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RegExCategories/RegExCategories.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Zip/Zip.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/hpple/hpple.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/Alamofire/Alamofire.framework"
-  install_framework "$BUILT_PRODUCTS_DIR/SnapKit/SnapKit.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/KeyHolder/KeyHolder.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Magnet/Magnet.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/RegExCategories/RegExCategories.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Zip/Zip.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/hpple/hpple.framework"
 fi

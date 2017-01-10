@@ -1,15 +1,27 @@
 PODS:
   - Alamofire (4.1.0)
-  - SnapKit (3.0.2)
+  - hpple (0.2.0)
+  - KeyHolder (2.0.0):
+    - Magnet (~> 2.0)
+  - Magnet (2.0.0)
+  - RegExCategories (1.0)
+  - Zip (0.6.0)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
-  - SnapKit
+  - hpple
+  - KeyHolder
+  - RegExCategories (~> 1.0)
+  - Zip (~> 0.6)
 
 SPEC CHECKSUMS:
   Alamofire: e266cf991b933498df791e645e0d8ac294492153
-  SnapKit: 2e456761aa92d4d4067a7a5594c18769d451a8ad
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  KeyHolder: 2389c8c9f911d56c413b1b288efa072e7a992c81
+  Magnet: b30d2807dd0d8a349ce4e6574ecefa38012d02ca
+  RegExCategories: e68befacacd5bda853c88f70ec745cb2d0cfb89c
+  Zip: 805fc2fa9d2f05bbb7762d982d7a42ccdcc51f42
 
-PODFILE CHECKSUM: c16b2d6c1a20da60755cceddc5405ba3225c59e8
+PODFILE CHECKSUM: e84998150b43042faa86b99cbe7ead35a1f19685
 
 COCOAPODS: 1.1.1
